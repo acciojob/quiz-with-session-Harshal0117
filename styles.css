@@ -1,1 +1,54 @@
 /*  your css code here. If applicable */
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f4f4f4;
+    margin: 0;
+}
+
+.container {
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    width: 400px;
+}
+
+h1 {
+    margin-bottom: 20px;
+}
+
+.question {
+    margin-bottom: 15px;
+}
+
+.options label {
+    display: block;
+    margin: 5px 0;
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    margin-top: 10px;
+    border: none;
+    background: #28a745;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+button:hover {
+    opacity: 0.8;
+}
+
+#score {
+    margin-top: 20px;
+    font-size: 18px;
+    font-weight: bold;
+}
